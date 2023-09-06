@@ -74,7 +74,7 @@ python3 user_activity_dashboard.py
 ## Acesse aplicação na porta:
 
 - Para ver Vendas por Semestre
-http://172.28.133.1:7081
+http://127.0.0.1:7081
 
 - Vendas por Produtos
 http://127.0.0.1:7082
