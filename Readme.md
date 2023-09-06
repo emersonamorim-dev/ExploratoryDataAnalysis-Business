@@ -1,4 +1,4 @@
- #3 Analise de Negócios - Exploratory Data Analysis Business - Python 🛍️📈 
+ ## Analise de Negócios - Exploratory Data Analysis Business - Python 🛍️📈 
 
 Codificação de aplicação em Python para Análise de Negócios, contendo dados, visualizações de Dashboard de Vendas por Semestre,Vendas por Produtos e Atividades de Usuários integrado com Gráficos. A implementação de DAGs para Apache Airflow, Apache Spark para tratamento de grande quantidade Dados brutos e processados, Notebooks em Jupyter em Python para Análise de Dados, 
 Uso de ETL para Extrair, Transformar e Carregar que são parte crucial na engenharia de dados e na integração de sistemas, especialmente em ambientes que requerem a ingestão, processamento e armazenamento de grandes volumes de dados. Modelagem de banco de dados SQL com duas tabelas para queries de Vendas e Usuários.
