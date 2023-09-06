@@ -1,0 +1,8 @@
+User_ID,Date,Activity,Time_Spent_sec,Product_Viewed,Purchase_Made
+U1001,2023-01-01,Login,5,,No
+U1001,2023-01-01,View_Product,120,Smartphone,No
+U1002,2023-01-01,Login,4,,No
+U1002,2023-01-01,View_Product,180,Laptop,No
+U1002,2023-01-01,Add_to_Cart,40,Laptop,No
+U1002,2023-01-01,Purchase,5,Laptop,Yes
+...

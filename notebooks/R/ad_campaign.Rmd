@@ -1,0 +1,28 @@
+---
+title: "Análise da Campanha Publicitária"
+author: "Seu Nome"
+date: "2023-09-05"
+output: html_document
+---
+
+{r setup, include=FALSE}
+# Configuração inicial
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(readr)
+library(dplyr)
+
+# Carregando os dados
+user_activity_data <- read_csv('../data/processed/user_activity_daily.csv')
+
+# Visão geral da atividade do usuário
+head(user_activity_data)
+
+# Gráfico de atividades do usuário ao longo do tempo
+ggplot(user_activity_data, aes(x=Date)) +
+  geom_line(aes(y=Total_Logins, color='Logins')) +
+  geom_line(aes(y=Total_Product_Views, color='Visualizações de Produto')) +
+  geom_line(aes(y=Total_Purchases, color='Compras')) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  ggtitle('Atividades dos Usuários ao Longo do Tempo') +
+  labs(color = "Atividade")

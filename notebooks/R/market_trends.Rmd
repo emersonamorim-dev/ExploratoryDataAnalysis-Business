@@ -1,0 +1,25 @@
+---
+title: "Análise de Tendências de Mercado"
+author: "Seu Nome"
+date: "2023-09-05"
+output: html_document
+---
+
+{r setup, include=FALSE}
+# Configuração inicial
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(readr)
+library(dplyr)
+
+# Carregando os dados
+sales_data <- read_csv('../data/processed/sales_summary.csv')
+
+# Visualização geral das vendas
+head(sales_data)
+
+# Gráfico das vendas totais por produto
+ggplot(sales_data, aes(x=Product_Name, y=Total_Revenue)) +
+  geom_bar(stat="identity") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  ggtitle('Receita Total por Produto')

@@ -1,0 +1,6 @@
+Date,Product_ID,Product_Name,Price,Units_Sold,Total_Revenue
+2023-01-01,101,Smartphone,500,10,5000
+2023-01-01,102,Laptop,1000,5,5000
+2023-01-02,101,Smartphone,500,8,4000
+2023-01-02,103,Headphones,100,15,1500
+...
